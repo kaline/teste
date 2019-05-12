@@ -1,0 +1,27 @@
+{
+  "name": "teste-node",
+  "version": "1.0.0",
+  "description": "pacote json do projeto teste-node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaline/teste-node.git"
+  },
+  "keywords": [
+    "nodejs",
+    "test",
+    "npm"
+  ],
+  "author": "kaline",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaline/teste-node/issues"
+  },
+  "homepage": "https://github.com/kaline/teste-node#readme",
+  "dependencies": {
+    "md5": "^2.2.1"
+  }
+}
