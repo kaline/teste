@@ -1,0 +1,29 @@
+{
+  "name": "politicsbrbootstrap",
+  "version": "1.0.0",
+  "description": "website to present brazilian politics status",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaline/PoliticsBrBootstrap.git"
+  },
+  "keywords": [
+    "code",
+    "br",
+    "politics",
+    "ementas"
+  ],
+  "author": "Kaline",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaline/PoliticsBrBootstrap/issues"
+  },
+  "homepage": "https://github.com/kaline/PoliticsBrBootstrap#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  }
+}
