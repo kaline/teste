@@ -1,5 +1,5 @@
 
-const url = 'http://localhost:3000/ementas';
+const url = 'https://ementasbrasil.herokuapp.com/ementas';
 
 fetch(url, {
 	
