@@ -1,28 +1,11 @@
-const url = "/ementas";
+const ementas2019 = "/ementas2019";
 var obj = {};
 
-function mySearch() {
-  var input, filter, ul, li, a, i, txtValue;
-  input = document.getElementById("searchInput");
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("accordion");
-  li = ul.getElementsByTagName("div");
-
-  for (i = 0; i < li.length; i++) {
-    a = li[i].getElementsByTagName("a")[0];
-    txtValue = a.textContent || a.innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
-    } else {
-      li[i].style.display = "none";
-    }
-  }
-}
 
 var listElm = document.querySelector("#body");
 console.log(listElm);
 
-var tamanhoBloco = 20;
+var tamanhoBloco = 4;
 var itemAtual = 0;
 
 
@@ -67,7 +50,7 @@ window.onscroll = function (ev) {
   }
 };
 
-fetch(url, {})
+fetch(ementas2019, {})
   .then((response) => {
     return response.json();
   })
