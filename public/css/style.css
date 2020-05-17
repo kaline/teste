@@ -3,14 +3,14 @@ body{
 }
 
 #ementasList{
-    margin:40px;
-    padding: 20px;
+    /* margin:40px; */
+    /* padding: 20px; */
 }
 
 #idEmenta{
     font-weight: bold;
 }
 #textEmenta{
-    padding: 20px;
+    /* padding: 20px; */
 }
 
